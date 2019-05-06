@@ -1,0 +1,343 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\krayt0ne\Downloads\Git\Liri
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 204
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 22
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 890
+    content: "\e[0m\e[0K"
+  - delay: 872
+    content: "Windows PowerShell\e[0K\e[?25l\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[0K\r\n\e[0K\r\n\e[0K\e[?25h"
+  - delay: 1533
+    content: "PS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri>\e[0K\e[42G"
+  - delay: 3503
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mn\e[0m\e[0K\e[?25h"
+  - delay: 280
+    content: "\e[0;33;93mo\e[0m\e[0K"
+  - delay: 372
+    content: "\e[0;33;93md\e[0m\e[0K"
+  - delay: 191
+    content: "\e[0;33;93me\e[0m\e[0K"
+  - delay: 369
+    content: "\e[47G"
+  - delay: 1036
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m l\e[0K\e[?25h"
+  - delay: 499
+    content: "i\e[0K"
+  - delay: 156
+    content: "r\e[0K"
+  - delay: 97
+    content: "i\e[0K"
+  - delay: 836
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 124
+    content: "this is loaded\e[0K\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 3631
+    content: "\e[?25l\e[0;32m?\e[0m \e[0;1mWhat do you want to do?\e[0m (Press \e[0;36;96m<space>\e[0m to select, \e[0;36;96m<a>\e[0m to toggle all, \e[0;36;96m<i>\e[0m to invert selection)\e[0K\r\n\e[0;36m>( ) concert-this\e[0m\e[0K\r\n ( ) spotify-this-song\e[0K\r\n ( ) movie-this\e[0K\r\n ( ) do-what-it-says\e[0K"
+  - delay: 1909
+    content: "\r\e[4A\e[0;32m?\e[0m \e[0;1mWhat do you want to do?\e[0m\e[0K\r\n\e[0;36m>\e[0;32m(*)\e[0;36m concert-this\e[0m\e[0K\r\n ( ) spotify-this-song\e[0K\r\n ( ) movie-this\e[0K\r\n ( ) do-what-it-says\e[0K"
+  - delay: 1343
+    content: "\r\e[4A\e[0;32m?\e[0m \e[0;1mWhat do you want to do?\e[0m \e[0;36mconcert-this\e[0m\e[0K\r\n\e[0;32m?\e[0m \e[0;1mWho are you searching for?\e[0m\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[30G\e[?25h"
+  - delay: 1873
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWho are you searching for?\e[0m D\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[31G\e[?25h"
+  - delay: 378
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWho are you searching for?\e[0m Dr\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[32G\e[?25h"
+  - delay: 118
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWho are you searching for?\e[0m Dra\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[33G\e[?25h"
+  - delay: 561
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWho are you searching for?\e[0m Drak\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[34G\e[?25h"
+  - delay: 158
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWho are you searching for?\e[0m Drake\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[35G\e[?25h"
+  - delay: 817
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWho are you searching for?\e[0m \e[0;36mDrake\e[0m\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[2A\e[?25h"
+  - delay: 400
+    content: "XS Nightclub Las Vegas, NV May 18th 2019, 10:00:00 pm\e[0K\e[?25l\r\n\e[0K\r\n\e[0K\r\e[1A\e[?25h"
+  - delay: 36
+    content: "PS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri>\e[0K\e[?25l\r\n\e[0K\r\e[1A\e[42G\e[?25h"
+  - delay: 2875
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mn\e[0m\e[0K\r\n\e[0K\r\e[1A\e[43G\e[?25h"
+  - delay: 250
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mno\e[0m\e[0K\r\n\e[0K\r\e[1A\e[44G\e[?25h"
+  - delay: 182
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnod\e[0m\e[0K\r\n\e[0K\r\e[1A\e[45G\e[?25h"
+  - delay: 161
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m\e[0K\r\n\e[0K\r\e[1A\e[46G\e[?25h"
+  - delay: 1033
+    content: "\e[47G"
+  - delay: 2342
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m l\e[0K\r\n\e[0K\r\e[1A\e[48G\e[?25h"
+  - delay: 876
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m li\e[0K\r\n\e[0K\r\e[1A\e[49G\e[?25h"
+  - delay: 127
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m lir\e[0K\r\n\e[0K\r\e[1A\e[50G\e[?25h"
+  - delay: 149
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m liri\e[0K\r\n\e[0K\r\e[1A\e[51G\e[?25h"
+  - delay: 602
+    content: "\e[?25l\r\n\e[?25h"
+  - delay: 187
+    content: "this is loaded\e[0K\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 585
+    content: "\e[?25l\e[0;32m?\e[0m \e[0;1mWhat do you want to do?\e[0m (Press \e[0;36;96m<space>\e[0m to select, \e[0;36;96m<a>\e[0m to toggle all, \e[0;36;96m<i>\e[0m to invert selection)\e[0K\r\n\e[0;36m>( ) concert-this\e[0m\e[0K\r\n ( ) spotify-this-song\e[0K\r\n ( ) movie-this\e[0K\r\n ( ) do-what-it-says\e[0K"
+  - delay: 785
+    content: "\r\e[3A ( ) concert-this\e[0K\r\n\e[0;36m>( ) spotify-this-song\e[0m\e[0K\r\n ( ) movie-this\e[0K\r\n ( ) do-what-it-says\e[0K"
+  - delay: 688
+    content: "\r\e[4A\e[0;32m?\e[0m \e[0;1mWhat do you want to do?\e[0m\e[0K\r\n ( ) concert-this\e[0K\r\n\e[0;36m>\e[0;32m(*)\e[0;36m spotify-this-song\e[0m\e[0K\r\n ( ) movie-this\e[0K\r\n ( ) do-what-it-says\e[0K"
+  - delay: 1154
+    content: "\r\e[4A\e[0;32m?\e[0m \e[0;1mWhat do you want to do?\e[0m \e[0;36mspotify-this-song\e[0m\e[0K\r\n\e[0;32m?\e[0m \e[0;1mWhat song do you like?\e[0m\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[26G\e[?25h"
+  - delay: 1600
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat song do you like?\e[0m P\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[27G\e[?25h"
+  - delay: 336
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat song do you like?\e[0m Pa\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[28G\e[?25h"
+  - delay: 190
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat song do you like?\e[0m Pai\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[29G\e[?25h"
+  - delay: 225
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat song do you like?\e[0m Pain\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[30G\e[?25h"
+  - delay: 240
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat song do you like?\e[0m Paink\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[31G\e[?25h"
+  - delay: 255
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat song do you like?\e[0m Painki\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[32G\e[?25h"
+  - delay: 283
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat song do you like?\e[0m Painkil\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[33G\e[?25h"
+  - delay: 119
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat song do you like?\e[0m Painkill\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[34G\e[?25h"
+  - delay: 158
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat song do you like?\e[0m Painkille\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[35G\e[?25h"
+  - delay: 195
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat song do you like?\e[0m Painkiller\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[36G\e[?25h"
+  - delay: 776
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat song do you like?\e[0m \e[0;36mPainkiller\e[0m\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[2A\e[?25h"
+  - delay: 442
+    content: "Three Days Grace, Painkiller, https://open.spotify.com/track/6OMO6WdRhSfjMPAiPT94wH, Human\e[0K\e[?25l\r\n\e[0K\r\n\e[0K\r\e[1A\e[?25h"
+  - delay: 26
+    content: "PS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri>\e[0K\e[?25l\r\n\e[0K\r\e[1A\e[42G\e[?25h"
+  - delay: 2845
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mn\e[0m\e[0K\r\n\e[0K\r\e[1A\e[43G\e[?25h"
+  - delay: 686
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mno\e[0m\e[0K\r\n\e[0K\r\e[1A\e[44G\e[?25h"
+  - delay: 194
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnod\e[0m\e[0K\r\n\e[0K\r\e[1A\e[45G\e[?25h"
+  - delay: 181
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m\e[0K\r\n\e[0K\r\e[1A\e[46G\e[?25h"
+  - delay: 847
+    content: "\e[47G"
+  - delay: 972
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m l\e[0K\r\n\e[0K\r\e[1A\e[48G\e[?25h"
+  - delay: 710
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m li\e[0K\r\n\e[0K\r\e[1A\e[49G\e[?25h"
+  - delay: 158
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m lir\e[0K\r\n\e[0K\r\e[1A\e[50G\e[?25h"
+  - delay: 97
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m liri\e[0K\r\n\e[0K\r\e[1A\e[51G\e[?25h"
+  - delay: 1003
+    content: "\e[?25l\r\n\e[?25h"
+  - delay: 88
+    content: "this is loaded\e[0K\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 505
+    content: "\e[?25l\e[0;32m?\e[0m \e[0;1mWhat do you want to do?\e[0m (Press \e[0;36;96m<space>\e[0m to select, \e[0;36;96m<a>\e[0m to toggle all, \e[0;36;96m<i>\e[0m to invert selection)\e[0K\r\n\e[0;36m>( ) concert-this\e[0m\e[0K\r\n ( ) spotify-this-song\e[0K\r\n ( ) movie-this\e[0K\r\n ( ) do-what-it-says\e[0K"
+  - delay: 622
+    content: "\r\e[3A ( ) concert-this\e[0K\r\n\e[0;36m>( ) spotify-this-song\e[0m\e[0K\r\n ( ) movie-this\e[0K\r\n ( ) do-what-it-says\e[0K"
+  - delay: 214
+    content: "\r\e[2A ( ) spotify-this-song\e[0K\r\n\e[0;36m>( ) movie-this\e[0m\e[0K\r\n ( ) do-what-it-says\e[0K"
+  - delay: 753
+    content: "\r\e[4A\e[0;32m?\e[0m \e[0;1mWhat do you want to do?\e[0m\e[0K\r\n ( ) concert-this\e[0K\r\n ( ) spotify-this-song\e[0K\r\n\e[0;36m>\e[0;32m(*)\e[0;36m movie-this\e[0m\e[0K\r\n ( ) do-what-it-says\e[0K"
+  - delay: 1034
+    content: "\r\e[4A\e[0;32m?\e[0m \e[0;1mWhat do you want to do?\e[0m \e[0;36mmovie-this\e[0m\e[0K\r\n\e[0;32m?\e[0m \e[0;1mWhat movie do you like?\e[0m\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[27G\e[?25h"
+  - delay: 3190
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat movie do you like?\e[0m T\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[28G\e[?25h"
+  - delay: 431
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat movie do you like?\e[0m Te\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[29G\e[?25h"
+  - delay: 225
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat movie do you like?\e[0m Ter\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[30G\e[?25h"
+  - delay: 182
+    content: "\e[?25l\r\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[30G\e[?25h"
+  - delay: 36
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat movie do you like?\e[0m Term\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[31G\e[?25h"
+  - delay: 181
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat movie do you like?\e[0m Termi\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[32G\e[?25h"
+  - delay: 224
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat movie do you like?\e[0m Termin\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[33G\e[?25h"
+  - delay: 219
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat movie do you like?\e[0m Termina\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[34G\e[?25h"
+  - delay: 1524
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat movie do you like?\e[0m Terminat\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[35G\e[?25h"
+  - delay: 160
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat movie do you like?\e[0m Terminato\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[36G\e[?25h"
+  - delay: 161
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat movie do you like?\e[0m Terminator\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[3A\e[37G\e[?25h"
+  - delay: 1531
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat movie do you like?\e[0m \e[0;36mTerminator\e[0m\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[2A\e[?25h"
+  - delay: 149
+    content: "Terminator, 1991, 6.2, USA, English, A cyborg comes from the future, to kill a girl named Sarah Lee., Loris Basso, James Callahan, Debbie Medows, Michelle Kovach\e[0K\e[?25l\r\n\e[0K\r\n\e[0K\r\e[1A\e[?25h"
+  - delay: 36
+    content: "PS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri>\e[0K\e[?25l\r\n\e[0K\r\e[1A\e[42G\e[?25h"
+  - delay: 2029
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mn\e[0m\e[0K\r\n\e[0K\r\e[1A\e[43G\e[?25h"
+  - delay: 528
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mno\e[0m\e[0K\r\n\e[0K\r\e[1A\e[44G\e[?25h"
+  - delay: 191
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnod\e[0m\e[0K\r\n\e[0K\r\e[1A\e[45G\e[?25h"
+  - delay: 160
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m\e[0K\r\n\e[0K\r\e[1A\e[46G\e[?25h"
+  - delay: 315
+    content: "\e[47G"
+  - delay: 277
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m l\e[0K\r\n\e[0K\r\e[1A\e[48G\e[?25h"
+  - delay: 560
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m li\e[0K\r\n\e[0K\r\e[1A\e[49G\e[?25h"
+  - delay: 127
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m lir\e[0K\r\n\e[0K\r\e[1A\e[50G\e[?25h"
+  - delay: 96
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93mnode\e[0m liri\e[0K\r\n\e[0K\r\e[1A\e[51G\e[?25h"
+  - delay: 1282
+    content: "\e[?25l\r\n\e[?25h"
+  - delay: 125
+    content: "this is loaded\e[0K\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 595
+    content: "\e[?25l\e[0;32m?\e[0m \e[0;1mWhat do you want to do?\e[0m (Press \e[0;36;96m<space>\e[0m to select, \e[0;36;96m<a>\e[0m to toggle all, \e[0;36;96m<i>\e[0m to invert selection)\e[0K\r\n\e[0;36m>( ) concert-this\e[0m\e[0K\r\n ( ) spotify-this-song\e[0K\r\n ( ) movie-this\e[0K\r\n ( ) do-what-it-says\e[0K"
+  - delay: 528
+    content: "\r\e[3A ( ) concert-this\e[0K\r\n\e[0;36m>( ) spotify-this-song\e[0m\e[0K\r\n ( ) movie-this\e[0K\r\n ( ) do-what-it-says\e[0K"
+  - delay: 190
+    content: "\r\e[2A ( ) spotify-this-song\e[0K\r\n\e[0;36m>( ) movie-this\e[0m\e[0K\r\n ( ) do-what-it-says\e[0K"
+  - delay: 189
+    content: "\r\e[1A ( ) movie-this\e[0K\r\n\e[0;36m>( ) do-what-it-says\e[0m\e[0K"
+  - delay: 308
+    content: "\r\e[4A\e[0;32m?\e[0m \e[0;1mWhat do you want to do?\e[0m\e[0K\r\n ( ) concert-this\e[0K\r\n ( ) spotify-this-song\e[0K\r\n ( ) movie-this\e[0K\r\n\e[0;36m>\e[0;32m(*)\e[0;36m do-what-it-says\e[0m\e[0K"
+  - delay: 464
+    content: "\r\e[4A\e[0;32m?\e[0m \e[0;1mWhat do you want to do?\e[0m \e[0;36mdo-what-it-says\e[0m\e[0K\r\n\"I Want it That Way\"\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\r\e[2A\e[?25h"
+  - delay: 445
+    content: "Backstreet Boys, I Want It That Way, https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6, The Hits--Chapter One\e[0K\e[?25l\r\nPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri>\e[0K\r\n\e[0K\r\e[1A\e[42G\e[?25h"
+  - delay: 6243
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93m^D\e[0m\e[0K\r\n\e[0K\r\e[1A\e[44G\e[?25h"
+  - delay: 1850
+    content: "\e[?25l\r\n\e[?25h"
+  - delay: 562
+    content: "\e[0;31;91m╝ : The term '╝' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try \e[0m\e[0K\e[?25l\r\n\e[0;31;91magain.\e[0m\e[0K\r\n\e[0;31;91mAt line:1 char:1\e[0m\e[0K\r\n\e[0;31;91m+ ╝\e[0m\e[0K\r\n\e[0;31;91m+ ~\e[0m\e[0K\r\n\e[0;31;91m    + CategoryInfo          : ObjectNotFound: (╝:String) [], CommandNotFoundException\e[0m\e[0K\r\n\e[0;31;91m    + FullyQualifiedErrorId : CommandNotFoundException\e[0m\e[0K\r\n\e[0;31;91m \e[0m\e[0K\r\n\e[0K\e[?25h"
+  - delay: 61
+    content: "PS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri>\e[0K\e[42G"
+  - delay: 18534
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93m^D\e[0m\e[0K\e[?25h"
+  - delay: 2592
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri>\e[0K\e[42G\e[?25h"
+  - delay: 5091
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93m^D\e[0m\e[0K\e[?25h"
+  - delay: 568
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 61
+    content: "\e[0;31;91m╝ : The term '╝' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try \e[0m\e[0K\e[?25l\r\n\e[0;31;91magain.\e[0m\e[0K\r\n\e[0;31;91mAt line:1 char:1\e[0m\e[0K\r\n\e[0;31;91m+ ╝\e[0m\e[0K\r\n\e[0;31;91m+ ~\e[0m\e[0K\r\n\e[0;31;91m    + CategoryInfo          : ObjectNotFound: (╝:String) [], CommandNotFoundException\e[0m\e[0K\r\n\e[0;31;91m    + FullyQualifiedErrorId : CommandNotFoundException\e[0m\e[0K\r\n\e[0;31;91m \e[0m\e[0K\r\nPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri>\e[0K\e[42G\e[?25h"
+  - delay: 2776
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;33;93me\e[0m\e[0K\e[?25h"
+  - delay: 283
+    content: "\e[0;33;93mx\e[0m\e[0K"
+  - delay: 287
+    content: "\e[0;33;93mi\e[0m\e[0K"
+  - delay: 88
+    content: "\e[?25l\rPS C:\\Users\\krayt0ne\\Downloads\\Git\\Liri> \e[0;32;92mexit\e[0m\e[0K\e[?25h"
+  - delay: 376
+    content: "\e[?25l\r\n\e[0K\e[?25h"
